@@ -124,7 +124,10 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.0)
+<<<<<<< HEAD
   rest-client
+=======
+>>>>>>> a8ea7fed181e56fc8ca2d33d5457dec9ee1193e2
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
