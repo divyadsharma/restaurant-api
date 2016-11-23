@@ -12,7 +12,7 @@ Restaurant Api
 
 * **Clone project**
   ```bash
-  git clone git@github.com:webonise/NFHS-ROR.git
+  https://github.com/divyadsharma/restaurant-api.git
   ```
 
 * **Install gems**
