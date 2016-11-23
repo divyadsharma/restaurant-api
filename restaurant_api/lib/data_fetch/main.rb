@@ -6,7 +6,6 @@ module DataFetch
     def self.fetch_restaurants
       res = File.read("#{Rails.root}/public/sample_data.json")
       res = ActiveSupport::JSON.decode(res)
-      debugger
       return res
     rescue Exception => e
       Rails.logger.info 'Bad Request' + e.message
