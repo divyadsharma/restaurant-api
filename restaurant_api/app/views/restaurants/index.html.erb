@@ -1,0 +1,25 @@
+<h1>Restaurant Lists</h1>
+<table>
+  <tr>
+    <th>Restaurant&nbsp;&nbsp;</th>
+    <th>Review count&nbsp;&nbsp;</th>
+    <th>Longitude&nbsp;&nbsp;</th>
+    <th>Latitude&nbsp;&nbsp;</th>
+    <th>City&nbsp;&nbsp;</th>
+    <th>State&nbsp;&nbsp;</th>
+    <th>Zipcode&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th>Rating&nbsp;&nbsp;</th>
+  </tr>
+  <% @restaurants.each do |restaurant| %>
+  <tr>
+    <td><%= restaurant.restaurant_name %></td>
+    <td><%= restaurant.review_count %></td>
+    <td><%= restaurant.avg_rating %></td>
+    <td><%= restaurant.latitude %></td>
+    <td><%= restaurant.longitude %></td>
+    <td><%= restaurant.state %></td>
+    <td><%= restaurant.city %></td>
+    <td><%= restaurant.zip %></td>
+  </tr>
+  <% end %>
+</table>

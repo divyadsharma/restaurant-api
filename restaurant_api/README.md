@@ -20,7 +20,12 @@ Restaurant Api
   bundle install
   ```
 
+* **Root Url**
+  ```bash
+  http://localhost:3000/
+  ```
+
 * **checking json response**
   ```bash
-  restaurants.json
+  http://localhost:3000/restaurants.json
   ```
